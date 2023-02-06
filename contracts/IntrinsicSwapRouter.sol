@@ -12,11 +12,12 @@ import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 
 import './interfaces/IIntrinsicSwapRouter.sol';
 import './base/PeripheryPaymentsWithFeeExtended.sol';
+import './base/OracleSlippage.sol';
 import './libraries/Constants.sol';
 
 /// @title Intrinsic Swap Router
 /// @notice Router for stateless execution of swaps against Intrinsic
-abstract contract IntrinsicSwapRouter is IIntrinsicSwapRouter, PeripheryPaymentsWithFeeExtended {
+abstract contract IntrinsicSwapRouter is IIntrinsicSwapRouter, PeripheryPaymentsWithFeeExtended, OracleSlippage {
     using Path for bytes;
     using SafeCast for uint256;
 

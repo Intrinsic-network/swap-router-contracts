@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.2.0",
   "keywords": [
     "intrinsic"
   ],
@@ -29,7 +29,7 @@
     "@openzeppelin/contracts": "3.4.1-solc-0.7-2",
     "@uniswap/v2-core": "1.0.1",
     "@intrinsic-network/core": "1.0.0",
-    "@intrinsic-network/periphery": "1.1.2",
+    "@intrinsic-network/periphery": "1.2.0",
     "hardhat-watcher": "^2.1.1"
   },
   "devDependencies": {
@@ -58,7 +58,7 @@
     "typescript": "^3.7.3"
   },
   "scripts": {
-    "clear-cache": "rm -rf artifacts/ cache/ typechain/",
+    "clean": "rm -rf artifacts/ cache/ typechain/",
     "compile": "hardhat compile",
     "test": "hardhat test"
   }
