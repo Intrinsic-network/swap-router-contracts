@@ -2,14 +2,14 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@intrinsic-network/periphery/contracts/base/PeripheryImmutableState.sol';
-import '@intrinsic-network/core/contracts/libraries/SafeCast.sol';
-import '@intrinsic-network/core/contracts/libraries/TickMath.sol';
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
-import '@intrinsic-network/core/contracts/interfaces/callback/IIntrinsicSwapCallback.sol';
-import '@intrinsic-network/periphery/contracts/libraries/Path.sol';
-import '@intrinsic-network/periphery/contracts/libraries/PoolAddress.sol';
-import '@intrinsic-network/periphery/contracts/libraries/CallbackValidation.sol';
+import '@intrinsic-finance/periphery/contracts/base/PeripheryImmutableState.sol';
+import '@intrinsic-finance/core/contracts/libraries/SafeCast.sol';
+import '@intrinsic-finance/core/contracts/libraries/TickMath.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/interfaces/callback/IIntrinsicSwapCallback.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/Path.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/PoolAddress.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/CallbackValidation.sol';
 
 import '../interfaces/IQuoter.sol';
 

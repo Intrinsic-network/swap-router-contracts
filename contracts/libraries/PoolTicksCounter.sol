@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.6.0;
 
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
 
 library PoolTicksCounter {
     /// @dev This function counts the number of initialized ticks that would incur a gas cost between tickBefore and tickAfter.
