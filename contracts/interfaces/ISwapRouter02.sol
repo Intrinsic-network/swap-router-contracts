@@ -2,7 +2,7 @@
 pragma solidity >=0.7.5;
 pragma abicoder v2;
 
-import '@intrinsic-network/periphery/contracts/interfaces/ISelfPermit.sol';
+import '@intrinsic-finance/periphery/contracts/interfaces/ISelfPermit.sol';
 
 import './IV2SwapRouter.sol';
 import './IIntrinsicSwapRouter.sol';

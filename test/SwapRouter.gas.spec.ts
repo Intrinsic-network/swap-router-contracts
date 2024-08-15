@@ -1,5 +1,5 @@
 import { defaultAbiCoder } from '@ethersproject/abi'
-import { abi as IIntrinsicPoolABI } from '@intrinsic-network/core/artifacts/contracts/interfaces/IIntrinsicPool.sol/IIntrinsicPool.json'
+import { abi as IIntrinsicPoolABI } from '@intrinsic-finance/core/artifacts/contracts/interfaces/IIntrinsicPool.sol/IIntrinsicPool.json'
 import { Fixture } from 'ethereum-waffle'
 import { BigNumber, constants, ContractTransaction, Wallet } from 'ethers'
 import { solidityPack } from 'ethers/lib/utils'

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.7.5;
 
-import '@intrinsic-network/periphery/contracts/base/PeripheryPayments.sol';
-import '@intrinsic-network/periphery/contracts/libraries/TransferHelper.sol';
+import '@intrinsic-finance/periphery/contracts/base/PeripheryPayments.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/TransferHelper.sol';
 
 import '../interfaces/IPeripheryPaymentsExtended.sol';
 

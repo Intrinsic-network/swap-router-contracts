@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
 
 pragma solidity >=0.6.0;
 

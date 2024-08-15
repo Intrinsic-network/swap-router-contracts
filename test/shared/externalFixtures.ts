@@ -1,7 +1,7 @@
 import {
   abi as FACTORY_ABI,
   bytecode as FACTORY_BYTECODE,
-} from '@intrinsic-network/core/artifacts/contracts/IntrinsicFactory.sol/IntrinsicFactory.json'
+} from '@intrinsic-finance/core/artifacts/contracts/IntrinsicFactory.sol/IntrinsicFactory.json'
 import { abi as FACTORY_V2_ABI, bytecode as FACTORY_V2_BYTECODE } from '@uniswap/v2-core/build/UniswapV2Factory.json'
 import { Fixture } from 'ethereum-waffle'
 import { ethers, waffle } from 'hardhat'
@@ -14,7 +14,7 @@ import { constants } from 'ethers'
 import {
   abi as NFT_POSITION_MANAGER_ABI,
   bytecode as NFT_POSITION_MANAGER_BYTECODE,
-} from '@intrinsic-network/periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
+} from '@intrinsic-finance/periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 
 const wrbtcFixture: Fixture<{ wrbtc: IWRBTC }> = async ([wallet]) => {
   const wrbtc = (await waffle.deployContract(wallet, {

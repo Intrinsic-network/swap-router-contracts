@@ -3,16 +3,16 @@
 ## Local deployment
 
 In order to deploy this code to a local testnet, you should install the npm package
-`@intrinsic-network/swap-router-contracts`
+`@intrinsic-finance/swap-router-contracts`
 and import bytecode imported from artifacts located at
-`@intrinsic-network/swap-router-contracts/artifacts/contracts/*/*.json`.
+`@intrinsic-finance/swap-router-contracts/artifacts/contracts/*/*.json`.
 For example:
 
 ```typescript
 import {
   abi as SWAP_ROUTER_ABI,
   bytecode as SWAP_ROUTER_BYTECODE,
-} from '@intrinsic-network/swap-router-contracts/artifacts/contracts/SwapRouter02.sol/SwapRouter02.json'
+} from '@intrinsic-finance/swap-router-contracts/artifacts/contracts/SwapRouter02.sol/SwapRouter02.json'
 
 // deploy the bytecode
 ```
@@ -24,10 +24,10 @@ your local deployment.
 ## Using solidity interfaces
 
 The swap router contract interfaces are available for import into solidity smart contracts
-via the npm artifact `@intrinsic-network/swap-router-contracts`, e.g.:
+via the npm artifact `@intrinsic-finance/swap-router-contracts`, e.g.:
 
 ```solidity
-import '@intrinsic-network/swap-router-contracts/contracts/interfaces/ISwapRouter02.sol';
+import '@intrinsic-finance/swap-router-contracts/contracts/interfaces/ISwapRouter02.sol';
 
 contract MyContract {
   ISwapRouter02 router;

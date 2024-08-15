@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.7.5;
 
-import '@intrinsic-network/periphery/contracts/interfaces/IPeripheryPayments.sol';
+import '@intrinsic-finance/periphery/contracts/interfaces/IPeripheryPayments.sol';
 
 /// @title Periphery Payments Extended
 /// @notice Functions to ease deposits and withdrawals of RBTC and tokens

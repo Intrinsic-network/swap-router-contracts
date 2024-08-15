@@ -4,12 +4,12 @@ pragma abicoder v2;
 
 import '../interfaces/IOracleSlippage.sol';
 
-import '@intrinsic-network/periphery/contracts/base/PeripheryImmutableState.sol';
-import '@intrinsic-network/periphery/contracts/base/BlockTimestamp.sol';
-import '@intrinsic-network/periphery/contracts/libraries/Path.sol';
-import '@intrinsic-network/periphery/contracts/libraries/PoolAddress.sol';
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
-import '@intrinsic-network/periphery/contracts/libraries/OracleLibrary.sol';
+import '@intrinsic-finance/periphery/contracts/base/PeripheryImmutableState.sol';
+import '@intrinsic-finance/periphery/contracts/base/BlockTimestamp.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/Path.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/PoolAddress.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/periphery/contracts/libraries/OracleLibrary.sol';
 
 abstract contract OracleSlippage is IOracleSlippage, PeripheryImmutableState, BlockTimestamp {
     using Path for bytes;
